@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Miguel Ángel Hernandez</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compresor de imágenes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Compresor de imágenes</h1>
+    <input type="file" id="fileInput" accept="image/*" multiple>
+    <button onclick="compressImages()">Comprimir imágenes</button>
+    <button onclick="clearImages()">Borrar imágenes comprimidas</button>
+    <a id="downloadLink" style="display: none;" download="imagenes_comprimidas.zip" href="#">Descargar imágenes comprimidas</a>
+    <div id="imageContainer"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
